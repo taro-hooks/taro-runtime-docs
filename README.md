@@ -1,6 +1,10 @@
 
 ---
 
+| name                   | version                      | downloads                      |
+| ---------------------- | ---------------------------- | ------------------------------ |
+| `taro-runtime-docs` | [![NPM version][image-1]][1] | [![NPM downloads][image-2]][2] |
+
 注意: 这个包是用来给`taro-hooks`的文档输出用的. 不要随便用. (会跟随文档需要去更新对应的`taro`)
 
 ---
@@ -55,3 +59,9 @@ Taro 配置：
 ### Events
 
 [Taro 消息机制](https://nervjs.github.io/taro/docs/apis/about/events.html#docsNav)。
+
+
+[1]: https://www.npmjs.com/package/taro-runtime-docs
+[2]: https://npmjs.org/package/taro-runtime-docs
+[image-1]: https://img.shields.io/npm/v/taro-runtime-docs.svg?style=flat
+[image-2]: https://img.shields.io/npm/dm/taro-runtime-docs.svg?style=flat
