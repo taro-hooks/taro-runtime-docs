@@ -1,0 +1,43 @@
+{
+  "name": "taro-runtime-docs",
+  "version": "3.3.14",
+  "description": "taro runtime for mini apps.",
+  "main": "dist/runtime.esm.js",
+  "module": "dist/runtime.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest -i --coverage false",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NervJS/taro/tree/master/packages/taro-runtime"
+  },
+  "author": "yuche",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@tarojs/shared": "3.3.14",
+    "inversify": "5.1.1",
+    "lodash-es": "4.17.15",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@tarojs/taro": "3.3.14",
+    "@types/react": "^17.0.35",
+    "@vue/runtime-core": "^3.1.5",
+    "react": "^17.0.2",
+    "rollup": "^1.23.1",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "typescript": "^4.5.2",
+    "vue": "^2.6.14"
+  }
+}
